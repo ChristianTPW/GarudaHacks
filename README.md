@@ -1,11 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hookum
 
-test
+Hookum is a web app that enables the general public, especially the underprivileged, to get legal aid. Hookum utilizes artificial intelligence to provide suggestions based on an embedded model that has been trained with the Indonesian Criminal Code (KUHP).
 
+Hookum consist of two main feature:
+
+- AI Chat Bot
+- Community Forum
+
+### AI Chat Bot
+
+The AI Chat Bot responds to users based on their problems, with responses based on the Indonesian Criminal Code. This feature enables users to get input and suggestions for their legal issues.
+
+### Community Forum
+
+The Community Forum is a medium for users to read or share their law-related experiences. This feature aims to educate users about the law based on the experiences of other users.
 
 ## Getting Started
 
-First, run the development server:
+To run this repo you will need to run:
 
 ```bash
 npm run dev
@@ -18,22 +30,3 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
