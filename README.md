@@ -1,10 +1,19 @@
-# 🦜️🔗 LangChain + Next.js Starter Template
+# Hookum
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/langchain-ai/langchain-nextjs-template)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain-nextjs-template)
+Hookum is a web app that enables the general public, especially the underprivileged, to get legal aid. Hookum utilizes artificial intelligence to provide suggestions based on an embedded model that has been trained with the Indonesian Criminal Code (KUHP).
 
-This template scaffolds a LangChain.js + Next.js starter app. It showcases how to use and combine LangChain modules for several
-use cases. Specifically:
+Hookum consist of two main feature:
+
+- AI Chat Bot
+- Community Forum
+
+### AI Chat Bot
+
+The AI Chat Bot responds to users based on their problems, with responses based on the Indonesian Criminal Code. This feature enables users to get input and suggestions for their legal issues.
+
+### Community Forum
+
+The Community Forum is a medium for users to read or share their law-related experiences. This feature aims to educate users about the law based on the experiences of other users.
 
 - [Simple chat](/app/api/chat/route.ts)
 - [Returning structured output from an LLM call](/app/api/chat/structured_output/route.ts)
@@ -12,6 +21,7 @@ use cases. Specifically:
 - [Retrieval augmented generation (RAG) with a chain and a vector store](/app/api/chat/retrieval/route.ts)
 - [Retrieval augmented generation (RAG) with an agent and a vector store](/app/api/chat/retrieval_agents/route.ts)
 
+<<<<<<< HEAD
 Most of them use Vercel's [AI SDK](https://github.com/vercel-labs/ai) to stream tokens to the client and display the incoming messages.
 
 The agents use [LangGraph.js](https://langchain-ai.github.io/langgraphjs/), LangChain's framework for building agentic workflows. They use preconfigured helper functions to minimize boilerplate, but you can replace them with custom graphs as desired.
@@ -32,11 +42,15 @@ To start with the basic examples, you'll just need to add your OpenAI API key.
 Next, install the required packages using your preferred package manager (e.g. `yarn`).
 
 Now you're ready to run the development server:
+=======
+To run this repo you will need to run:
+>>>>>>> 9953fdd849bada52df64e169227a42cb6036e8fa
 
 ```bash
 yarn dev
 ```
 
+<<<<<<< HEAD
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result! Ask the bot something and you'll see a streamed response:
 
 ![A streaming conversation between the user and the AI](/public/images/chat-conversation.png)
@@ -129,3 +143,6 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Thanks for reading! If you have any questions or comments, reach out to us on Twitter
 [@LangChainAI](https://twitter.com/langchainai), or [click here to join our Discord server](https://discord.gg/langchain).
+=======
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+>>>>>>> 9953fdd849bada52df64e169227a42cb6036e8fa
